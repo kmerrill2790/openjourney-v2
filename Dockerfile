@@ -130,7 +130,7 @@ ENV MODEL_URL=${MODEL_URL}
 # saved in a directory with same MODEL_ID name to be loaded by diffusers.
 ARG CHECKPOINT_URL="https://huggingface.co/prompthero/openjourney-v2/resolve/main/openjourney-v2.ckpt"
 ENV CHECKPOINT_URL=${CHECKPOINT_URL}
-ARG CHECKPOINT_CONFIG_URL=""
+ARG CHECKPOINT_CONFIG_URL="https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-inference.yaml"
 ENV CHECKPOINT_CONFIG_URL=${CHECKPOINT_CONFIG_URL}
 
 ADD download-checkpoint.py .
