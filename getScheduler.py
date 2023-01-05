@@ -12,7 +12,6 @@ SCHEDULERS = [
     "PNDMScheduler",
     "EulerAncestralDiscreteScheduler",
     "EulerDiscreteScheduler",
-    "HeunDiscreteScheduler",
 ]
 
 DEFAULT_SCHEDULER = os.getenv("DEFAULT_SCHEDULER", SCHEDULERS[0])
